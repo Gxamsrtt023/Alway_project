@@ -1,42 +1,41 @@
-import React from 'react'
+import React from 'react';
+import './login.css';
 
 function Login() {
     return (
         <>
+            <h1 className='login_uptext'>  Login </h1>
 
-            <h1> Sign Up </h1>
-            {/* <form onSubmit={handleSubmit}> */}
-            <form>
-                <label>
-                    Telephone or Email
-                    <input
-                        name='account'
-                        type='text'
-                        // onChange={handleChange}
-                        autoComplete='off'
-                        // value={ user.telephone }
-                        //placeholder="xxx-xxx-xxxx"
-                        //pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                        maxLength={10}
-                        required
-                    />
-                </label>
+            {/* เพิ่มสี่เหลี่ยมผืนผ้าด้านบนของ .telephone */}
+            <div className="telephone">
+                <div className="rectangle"></div>
+                <form>
+                    <label>
+                        Telephone or Email
+                        <input className='login_name'
+                            name='account'
+                            type='text'
+                            autoComplete='off'
+                            maxLength={10}
+                            required
+                        />
+                    </label>
 
-                <label>
-                    Password
-                    <input
-                        name='password'
-                        type='password'
-                        // onChange={handleChange}
-                        autoComplete='off'
-                        // value={ user.password }
-                        required
-                    />
-                </label>
+                    <label className='login_password'>
+                        Password
+                        <input className='login_name'
+                            name='password'
+                            type='password'
+                            autoComplete='off'
+                            required
+                        />
+                    </label>
 
-                <button> Sign up</button>
-            </form>
+                    <button className='login_button'> login </button>
+                </form>
+            </div>
         </>
     )
 }
+
 export default Login;

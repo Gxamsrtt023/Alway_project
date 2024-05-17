@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Signup() {
     return (
         <>
@@ -7,7 +8,7 @@ function Signup() {
             <h1> Sign Up </h1>
             {/* <form onSubmit={handleSubmit}> */}
             <form>
-            <label className='Username_singup'>
+            <label className='Singup_Username'>
                     Username
                     <input
                         name='account'
@@ -22,7 +23,7 @@ function Signup() {
                     />
                 </label>
 
-                <label className='Name_signup'>
+                <label className='Singup_Name'>
                     Telephone or Email
                     <input
                         name='account'
@@ -37,7 +38,7 @@ function Signup() {
                     />
                 </label>
 
-                <label className='Password_signup'>
+                <label className='Singup_Password'>
                     Password
                     <input className=''
                         name='password'
@@ -49,7 +50,7 @@ function Signup() {
                     />
                 </label>
 
-                <label className='Password_singup'>
+                <label className='Singup2_Password'>
                     Password
                     <input className=''
                         name='password'
@@ -61,7 +62,7 @@ function Signup() {
                     />
                 </label>
 
-                <button> Sign up</button>
+                <button> Sign up </button>
             </form>
         </>
     )

@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-.telephone {
+.box_signup {
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -22,21 +22,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px; /* เพิ่ม margin-top เพื่อให้มีระยะห่างจากด้านบน */
 }
 
 .form h2 {
     text-align: center;
 }
 
-.login_password {
+.Signup_password {
     flex-grow: 1; /* ทำให้ทั้งสองกล่องขยายเท่ากัน */
     width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
     padding: 8px;
     margin: 5px 0;
 }
-
-.login_name {
+.Signup2_password {
+    flex-grow: 1; /* ทำให้ทั้งสองกล่องขยายเท่ากัน */
+    width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
+    padding: 8px;
+    margin: 5px 0;
+}
+.Signup_Name {
     flex-grow: 1; /* ทำให้ทั้งสองกล่องขยายเท่ากัน */
     width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
     padding: 8px;

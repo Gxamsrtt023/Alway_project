@@ -10,7 +10,7 @@ function Login() {
 
       <div className="container">
         <h1 className='login_uptext'>Login</h1>
-        <div className="telephone">
+        <div className="box_login">
           <form>
             <label>
               Telephone or Email

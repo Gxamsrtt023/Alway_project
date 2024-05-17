@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 
-.telephone {
+.box_login {
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px; /* เพิ่ม margin-top เพื่อให้มีระยะห่างจากด้านบน */
 }
 
 .form h2 {

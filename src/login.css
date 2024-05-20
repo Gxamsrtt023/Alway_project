@@ -1,68 +1,95 @@
+/* General Styles */
 body {
-    background-color: #E0D2EF; /* เพิ่มสีพื้นหลังทั้งหมดของแอป */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  background-color: #EEEDE8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+/* Login Form Styles */
 .box_login {
-    width: 400px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #B2D3DB;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
 }
 
-.form h2 {
-    text-align: center;
+.login_uptext {
+  background-color: #C6BBD2;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;  /* Ensure text is centered */
 }
 
-.login_password {
-    flex-grow: 1; /* ทำให้ทั้งสองกล่องขยายเท่ากัน */
-    width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
-    padding: 8px;
-    margin: 5px 0;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.login_name {
-    flex-grow: 1; /* ทำให้ทั้งสองกล่องขยายเท่ากัน */
-    width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
-    padding: 8px;
-    margin: 5px 0;
+label {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .login_button {
-    width: 100%;
-    background-color: #7C6CBD;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
+  width: 100%;
+  background-color: #C6BBD2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
+.login_button:hover {
+  background-color: #a18fbf;
+}
+
+/* Additional Styles */
 .header-rectangle {
-    position: absolute; /* ตั้งค่าตำแหน่งเป็น absolute เพื่อให้สามารถจัดวางอิสระ */
-    top: 0; /* วางที่ด้านบนสุดของหน้าเว็บ */
-    left: 0; /* วางที่ด้านซ้ายสุดของหน้าเว็บ */
-    width: 100%; /* กว้างเท่ากับหน้าเว็บ */
-    height: 50px; /* ความสูงของกล่องสี่เหลี่ยม */
-    background-color: #F67687; /* สีพื้นหลัง */
-    border-bottom: 2px solid #000; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #CEC3DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header-rectangle svg {
-    max-width: 100%;
-    height: auto;
+.header-rectangle img {
+  width: 200px;
+  height: 50px;
+}
+
+form {
+  width: 80%;
 }

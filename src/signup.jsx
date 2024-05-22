@@ -7,47 +7,46 @@ function Signup() {
             <div className="box_signup">
                 <h2>Sign Up</h2>
                 <form>
-                    <label className='Signup_Username'>
-                        Username
-                        <input
-                            name='username'
-                            type='text'
-                            autoComplete='off'
-                            maxLength={10}
-                            required
-                        />
-                    </label>
+                    <label htmlFor="username"></label>
+                    <input
+                        id="username"
+                        name='username'
+                        type='text'
+                        autoComplete='off'
+                        maxLength={10}
+                        required
+                        placeholder="Username"
+                    />
 
-                    <label className='Signup_Name'>
-                        Telephone or Email
-                        <input
-                            name='account'
-                            type='text'
-                            autoComplete='off'
-                            maxLength={10}
-                            required
-                        />
-                    </label>
+                    <label htmlFor="account"></label>
+                    <input
+                        id="account"
+                        name='account'
+                        type='text'
+                        autoComplete='off'
+                        required
+                        placeholder="Telephone or Email"
+                    />
 
-                    <label className='Signup_Password'>
-                        Password
-                        <input
-                            name='password'
-                            type='password'
-                            autoComplete='off'
-                            required
-                        />
-                    </label>
+                    <label htmlFor="password"></label>
+                    <input
+                        id="password"
+                        name='password'
+                        type='password'
+                        autoComplete='off'
+                        required
+                        placeholder="Password"
+                    />
 
-                    <label className='Signup2_Password'>
-                        Confirm Password
-                        <input
-                            name='confirm_password'
-                            type='password'
-                            autoComplete='off'
-                            required
-                        />
-                    </label>
+                    <label htmlFor="confirm_password"></label>
+                    <input
+                        id="confirm_password"
+                        name='confirm_password'
+                        type='password'
+                        autoComplete='off'
+                        required
+                        placeholder="Confirm password"
+                    />
 
                     <button type="submit">Sign up</button>
                 </form>

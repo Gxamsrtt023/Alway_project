@@ -12,14 +12,19 @@ function Login() {
 
       <div className="container">
         <div className="box_login">
-          <h1 className='login_uptext'>
-            Login
-          </h1>
+          <div className="login_header">
+            <h1 className='login_uptext'>
+              Login
+              <button className='signup_button'>
+              Sign Up
+            </button>
+            </h1>
+            
+          </div>
           <form>
-            <label>
-              
+          <label className='login_name'>
+            <FontAwesomeIcon className='iconusername' icon={faUser} />
               <input
-                className='login_name'
                 name='account'
                 type='text'
                 placeholder='Username'
@@ -27,21 +32,19 @@ function Login() {
                 maxLength={10}
                 required
               />
-              <FontAwesomeIcon icon={faUser} />
-            </label>
-
+          </label>
             <label className='login_password'>
+            <FontAwesomeIcon className='iconpassword' icon={faLock} />
               <input
-                className='login_name'
                 name='password'
                 type='password'
                 placeholder='Password'
                 autoComplete='off'
                 required
               />
-              <FontAwesomeIcon icon={faLock} />
+             
             </label>
-           
+
             <button className='login_button'>Login</button>
           </form>
         </div>

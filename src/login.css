@@ -16,22 +16,31 @@ body {
 
 /* Login Form Styles */
 .box_login {
+  position: relative;
+  height: 200px;
   background-color: #B2D3DB;
   width: 400px;
   padding: 20px;
+  padding-top: 70px; /* เพิ่ม padding-top เพื่อให้ฟอร์มเลื่อนลง */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 30px;
   text-align: center;
 }
 
 .login_uptext {
+  position: absolute;
+  height: 60px; /* ใช้ absolute positioning */
+  top: 0; /* ชิดขอบบนของกล่อง */
+  left: 0; /* ชิดขอบซ้ายของกล่อง */
   background-color: #C6BBD2;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 40px 40px 40px 40px; /* ปรับ border-radius */
   font-size: 24px;
   color: #fff;
-  text-align: center;  /* Ensure text is centered */
+  text-align: center;
+  width: calc(109% - 40px); /* ความกว้างลดลงตาม padding */
+  margin: 0; /* ลบ margin */
+  box-sizing: border-box; /* รวม padding ในความกว้าง */
 }
 
 form {
@@ -43,15 +52,23 @@ form {
 
 label {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-input[type="text"],
+input[type="text"]{
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
 input[type="password"] {
   width: calc(100% - 16px);
   padding: 10px;
-  margin: 5px 0;
-  border-radius: 4px;
+  margin: 2px 0;
+  border-radius: 50px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
@@ -62,10 +79,11 @@ input[type="password"] {
   color: #fff;
   border: none;
   padding: 10px;
-  border-radius: 3px;
-  cursor: pointer;
+  border-radius: 30px;
+  width: 100px;
   font-size: 16px;
-  transition: background-color 0.3s ease;
+  margin: 10px;
+
 }
 
 .login_button:hover {
@@ -75,7 +93,7 @@ input[type="password"] {
 /* Additional Styles */
 .header-rectangle {
   position: absolute;
-  top: 0;
+  top: 0px; /* Adjusted top margin */
   left: 0;
   width: 100%;
   height: 50px;
@@ -83,6 +101,7 @@ input[type="password"] {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 0 0 60px 60px; /* Rounded corners only at the bottom */
 }
 
 .header-rectangle img {
@@ -90,6 +109,15 @@ input[type="password"] {
   height: 50px;
 }
 
-form {
-  width: 80%;
+/* Assuming you have styles for container, box_login, login_uptext, and login_button */
+
+.login_label {
+  display: flex; /* Allow icon and input to be placed inline */
+  align-items: center; /* Vertically align icon and input text */
+  margin-bottom: 10px;
 }
+
+.login_icon {
+  margin-right: 10px; /* Add spacing between icon and input text */
+}
+

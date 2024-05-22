@@ -1,53 +1,139 @@
-.container {
+body {
+    background-color: #EEEDE8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
-}
+  }
 
-.box_signup {
+  .box_signup {
+    position: relative;
+    height: 230px;
+    background-color: #B2D3DB;
     width: 400px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding-top: 70px; /* เพิ่ม padding-top เพื่อให้ฟอร์มเลื่อนลง */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    
+    
+  }
+
+  .signup_text {
+    position: absolute;
+    height: 60px; /* ใช้ absolute positioning */
+    top: 0; /* ชิดขอบบนของกล่อง */
+    left: 0;
+    background-color: #C6BBD2;
+    padding: 15px;
+    padding-left: 40px;
+    border-radius: 40px 40px 40px 40px; /* ปรับ border-radius */
+    font-size: 24px;
+    color: #fff;
+    width: calc(109% - 40px); /* ความกว้างลดลงตาม padding */
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.form h2 {
-    text-align: center;
-}
-
-input {
-    width: calc(100% - 16px); /* ลบขนาดของ padding (8px * 2) จาก 100% */
-    padding: 8px;
-    margin: 5px 0;
-}
-
-button {
     width: 100%;
-    background-color: #7C6CBD;
+  }
+
+  label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]{
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+
+  .signup_email{
+    width: calc(100% - 16px);
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: -20px;
+  }
+
+  input[type="password"] {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: -25px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+  }
+
+  .confirm_password{
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 50px;
+    box-sizing: border-box;
+   
+  }
+
+  .icon_username {
+    position: absolute;
+    left: 375px; /* Adjust as needed */
+    top: 95px; /* Center vertically */
+     /* Center vertically */
+  }
+  
+  .icon_password {
+    position: absolute;
+    left: 375px; /* Adjust as needed */
+    top: 185px; /* Center vertically */
+     /* Center vertically */
+  }
+  
+  .signup_button {
+    width: 100%;
+    background-color: #C6BBD2;
     color: #fff;
     border: none;
     padding: 10px;
-    border-radius: 3px;
-    cursor: pointer;
-}
+    border-radius: 30px;
+    width: 100px;
+    font-size: 16px;
+    margin: 10px;
+  }
 
-.header-rectangle {
+  .signup-rectangle {
     position: absolute;
-    top: 0;
+    top: 0px; /* Adjusted top margin */
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #F67687;
-    border-bottom: 2px solid #000; 
-}
-
-.header-rectangle svg {
-    max-width: 100%;
-    height: auto;
-}
+    background-color: #CEC3DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 60px 60px; /* Rounded corners only at the bottom */
+  }
+  
+  .signup-rectangle img {
+    width: 200px;
+    height: 50px;
+  }
+  

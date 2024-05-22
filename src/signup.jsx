@@ -7,7 +7,7 @@ function Signup() {
             <div className="box_signup">
                 <h2>Sign Up</h2>
                 <form>
-                    <label htmlFor="username"></label>
+                    <label className="username"></label>
                     <input
                         id="username"
                         name='username'
@@ -18,7 +18,7 @@ function Signup() {
                         placeholder="Username"
                     />
 
-                    <label htmlFor="account"></label>
+                    <label className="account"></label>
                     <input
                         id="account"
                         name='account'
@@ -28,7 +28,7 @@ function Signup() {
                         placeholder="Telephone or Email"
                     />
 
-                    <label htmlFor="password"></label>
+                    <label className="password"></label>
                     <input
                         id="password"
                         name='password'
@@ -38,7 +38,7 @@ function Signup() {
                         placeholder="Password"
                     />
 
-                    <label htmlFor="confirm_password"></label>
+                    <label className="confirm_password"></label>
                     <input
                         id="confirm_password"
                         name='confirm_password'
@@ -48,7 +48,7 @@ function Signup() {
                         placeholder="Confirm password"
                     />
 
-                    <button type="submit">Sign up</button>
+                    <button className="submit">Sign up</button>
                 </form>
             </div>
         </div>

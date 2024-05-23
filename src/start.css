@@ -137,3 +137,13 @@ body {
   transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
   z-index: 1; /* Ensure the shadow is behind the image */
 }
+
+.pic5-image {
+  position: absolute;
+  width: 150px; /* Adjust the width as needed */
+  height: auto;  /* This ensures the aspect ratio is maintained */
+  display: block;
+  top: -340px; /* Center the image horizontally */
+  left: -620px;
+  z-index: 2; /* Ensure the image is above the shadow */
+}

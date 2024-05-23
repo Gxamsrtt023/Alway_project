@@ -28,6 +28,10 @@ const StartButton = () => {
   );
 };
 
+const handleImageClick = () => {
+  // ตัวอย่างการแสดงข้อความเมื่อคลิกที่รูป
+};
+
 const App = () => {
   return (
     <div className="app">
@@ -41,6 +45,7 @@ const App = () => {
         <img src="/startpic3.png" alt="Decorative" className="pic3-image" />
         <div className="pic4-shadow"></div>
         <img src="/startpic4.png" alt="Decorative" className="pic4-image" />
+        <img src="/startpic5.png" alt="Decorative" className="pic5-image" onClick={handleImageClick} />
       </div>
     </div>
   );

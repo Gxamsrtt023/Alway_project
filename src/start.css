@@ -1,54 +1,78 @@
 body {
-    background-color: #B2D3DB;
-  }
-  
-  .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    position: relative; /* ทำให้ลูก elements สามารถใช้ absolute position ได้ */
-  }
-  
-  .square {
-    width: 50px;
-    height: 50px;
-    display: flex;
-  }
-  
-  .pink {
-    background-color: #E5CDDD;
-    width: 810px; /* ใช้ 50% ของความกว้างของหน้าจอ */
-    height: 80px;
-    position: absolute;
-    top: -35px;
-    left: -430px;
-  }
-  
-  .green {
-    background-color: #C1CCBF;
-    width: 790px;
-    height: 80px;
-    margin-top: -787px;
-    
-    
-  }
-  
-  .start-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    position: absolute;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 45px;
-    transition: background-color 0.3s;
-    
-  }
-  
-  .start-button:hover {
-    background-color: #0056b3;
-  }
-  
+  background-color: #B2D3DB;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative; /* ทำให้ลูก elements สามารถใช้ absolute position ได้ */
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.pink {
+  background-color: #E5CDDD;
+  width: 810px; /* ใช้ 50% ของความกว้างของหน้าจอ */
+  height: 80px;
+  position: absolute;
+  top: -35px;
+  left: -430px;
+}
+
+.green {
+  background-color: #C1CCBF;
+  width: 790px;
+  height: 80px;
+  margin-top: -787px;
+  position: relative; /* or 'absolute' */
+  left: 380px;
+}
+
+.home-button {
+  padding: 15px 20px;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  transition: background-color 0.3s;
+  z-index: 2; /* Ensure this button is on top */
+  top: 20px; /* กำหนดตำแหน่งด้านบน */
+  left: 20px; /* กำหนดตำแหน่งด้านซ้าย */
+}
+
+
+
+.start-button {
+  background-color: #E0D0DB;
+  color: #a9a2a2;
+  padding: 15px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  font-size: 45px;
+  transition: background-color 0.3s;
+  z-index: 2; /* Ensure this button is on top */
+  top: 50%; /* กำหนดให้อยู่ตรงกลางแนวตั้ง */
+  left: 50%; /* กำหนดให้อยู่ตรงกลางแนวนอน */
+  transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
+}
+
+.start-button-shadow {
+  width: 150px;
+  height: 80px;
+  border-radius: 80px;
+  position: absolute;
+  background-color: #D1C7D1; /* Slightly darker color for shadow */
+  top: 400px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  left: 420px;/* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
+  z-index: 1; /* Ensure this button is behind the original button */
+}

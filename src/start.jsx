@@ -11,9 +11,12 @@ const Square = ({ color }) => {
 
 const StartButton = () => {
   return (
-    <button className="start-button">
-      START
-    </button>
+    <>
+      <button className="start-button-shadow"></button>
+      <button className="start-button">
+        START
+      </button>
+    </>
   );
 };
 

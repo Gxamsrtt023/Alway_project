@@ -4,7 +4,7 @@ body {
 
 .app {
   width: 800px; /* กำหนดความกว้างของหน้าเว็บ */
-  height: 600px; /* กำหนดความสูงของหน้าเว็บ */
+  height: 550px; /* กำหนดความสูงของหน้าเว็บ */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ body {
   width: 800px; /* ใช้ 50% ของความกว้างของหน้าจอ */
   height: 70px;
   position: absolute;
-  top: -100px;
+  top: -125px;
   left: -340px;
 }
 
@@ -60,7 +60,7 @@ body {
   border-radius: 80px;
   position: absolute;
   background-color: #D1C7D1; /* Slightly darker color for shadow */
-  top: 300px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  top: 275px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
   left: 420px; /* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
   transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
   z-index: 1; /* Ensure this button is behind the original button */
@@ -72,7 +72,7 @@ body {
   height: auto;  /* This ensures the aspect ratio is maintained */
   display: block;
   margin: 120px auto;
-  top: 0px; /* Center the image horizontally */
+  top: -25px; /* Center the image horizontally */
 }
 
 .image-container {
@@ -100,6 +100,40 @@ body {
   background-color: rgba(238, 237, 232, 0.5); /* Slightly darker color for shadow */
   top: -95px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
   left: -280px; /* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
+  z-index: 1; /* Ensure the shadow is behind the image */
+}
+
+.pic3-image {
+  position: absolute;
+  width: 50px;
+  border-radius: 30px;  /* Adjust the width as needed */
+  height: auto;  /* This ensures the aspect ratio is maintained */
+  display: block;
+  top: 105px; /* Center the image horizontally */
+  left: 90px;
+  z-index: 2; /* Ensure the image is above the shadow */
+}
+
+.pic4-image {
+  position: absolute;
+  width: 210px;
+  border-radius: 50px;  /* Adjust the width as needed */
+  height: auto;  /* This ensures the aspect ratio is maintained */
+  display: block;
+  top: -200px; /* Center the image horizontally */
+  right: -400px;
+  z-index: 2; /* Ensure the image is above the shadow */
+}
+
+.pic4-shadow {
+  width: 220px;
+  height: 210px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: rgba(238, 237, 232, 0.5); /* Slightly darker color for shadow */
+  top: -95px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  right: -520px; /* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
   transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
   z-index: 1; /* Ensure the shadow is behind the image */
 }

@@ -38,6 +38,9 @@ const App = () => {
       <div className="image-container">
         <div className="pic2-shadow"></div>
         <img src="/startpic2.png" alt="Decorative" className="pic2-image" />
+        <img src="/startpic3.png" alt="Decorative" className="pic3-image" />
+        <div className="pic4-shadow"></div>
+        <img src="/startpic4.png" alt="Decorative" className="pic4-image" />
       </div>
     </div>
   );

@@ -106,6 +106,13 @@ body {
     top: 185px; /* Center vertically */
      /* Center vertically */
   }
+
+  .icon_email {
+    position: absolute;
+    left: 375px; /* Adjust as needed */
+    top: 140px; /* Center vertically */
+     /* Center vertically */
+  }
   
   .signup_button {
     width: 100%;
@@ -119,19 +126,16 @@ body {
     margin: 10px;
   }
 
-  .signup-rectangle {
-    position: absolute;
-    top: 0px; /* Adjusted top margin */
+  .signup_rectangle {
+    position: fixed;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 50px;
-    background-color: #CEC3DB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0 0 60px 60px; /* Rounded corners only at the bottom */
-  }
-  
+    height: 80px;
+    background-color: #C6BBD2;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 80px 80px 0px 0px;
+}
   .signup-rectangle img {
     width: 200px;
     height: 50px;

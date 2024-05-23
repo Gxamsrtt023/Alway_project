@@ -2,10 +2,11 @@ import React from 'react';
 import './signup.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
-
+import { MdEmail } from 'react-icons/md';
 
 function Signup() {
     return (
+        
         <div className="container">
             <div className="box_signup">
                 <h2 className='signup_text'>
@@ -25,6 +26,7 @@ function Signup() {
                     />
 
                     <label className="signup_email"></label>
+                    <MdEmail className="icon_email" />
                     <input
                         id="account"
                         name='account'
@@ -36,7 +38,7 @@ function Signup() {
 
                     <label className="signup_password"></label>
                     <FontAwesomeIcon className='icon_password' icon={faLock} />
-                    <input c
+                    <input 
                         id="password"
                         name='password'
                         type='password'
@@ -57,11 +59,9 @@ function Signup() {
 
                     <button className="signup_button">Sign up</button>
                 </form>
+                <div className="signup_rectangle"></div>
             </div>
-            <div className="signup-rectangle">
-                
             </div>
-        </div>
         
     );
    

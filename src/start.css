@@ -3,11 +3,13 @@ body {
 }
 
 .app {
+  width: 800px; /* กำหนดความกว้างของหน้าเว็บ */
+  height: 600px; /* กำหนดความสูงของหน้าเว็บ */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   position: relative; /* ทำให้ลูก elements สามารถใช้ absolute position ได้ */
 }
 
@@ -19,34 +21,21 @@ body {
 
 .pink {
   background-color: #E5CDDD;
-  width: 810px; /* ใช้ 50% ของความกว้างของหน้าจอ */
-  height: 80px;
+  width: 800px; /* ใช้ 50% ของความกว้างของหน้าจอ */
+  height: 70px;
   position: absolute;
-  top: -35px;
-  left: -430px;
+  top: -100px;
+  left: -340px;
 }
 
 .green {
   background-color: #C1CCBF;
-  width: 790px;
-  height: 80px;
-  margin-top: -787px;
+  width: 730px;
+  height: 70px;
+  top: -255px;
   position: relative; /* or 'absolute' */
-  left: 380px;
+  left: 370px;
 }
-
-.home-button {
-  padding: 15px 20px;
-  position: absolute;
-  border: none;
-  cursor: pointer;
-  font-size: 50px;
-  transition: background-color 0.3s;
-  z-index: 2; /* Ensure this button is on top */
-  top: 20px; /* กำหนดตำแหน่งด้านบน */
-  left: 20px; /* กำหนดตำแหน่งด้านซ้าย */
-}
-
 
 
 .start-button {
@@ -71,8 +60,46 @@ body {
   border-radius: 80px;
   position: absolute;
   background-color: #D1C7D1; /* Slightly darker color for shadow */
-  top: 400px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
-  left: 420px;/* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  top: 300px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  left: 420px; /* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
   transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
   z-index: 1; /* Ensure this button is behind the original button */
+}
+
+.decorative-image {
+  position: absolute;
+  width: 500px;  /* Adjust the width as needed */
+  height: auto;  /* This ensures the aspect ratio is maintained */
+  display: block;
+  margin: 120px auto;
+  top: 0px; /* Center the image horizontally */
+}
+
+.image-container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+.pic2-image {
+  position: absolute;
+  width: 220px;
+  border-radius: 50px;  /* Adjust the width as needed */
+  height: auto;  /* This ensures the aspect ratio is maintained */
+  display: block;
+  top: -200px; /* Center the image horizontally */
+  left: -400px;
+  z-index: 2; /* Ensure the image is above the shadow */
+}
+
+.pic2-shadow {
+  width: 220px;
+  height: 210px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: rgba(238, 237, 232, 0.5); /* Slightly darker color for shadow */
+  top: -95px; /* ย้ายลงล่างเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  left: -280px; /* ย้ายข้างขวาเล็กน้อยเพื่อให้เงาเห็นได้ชัดเจน */
+  transform: translate(-50%, -50%); /* ย้ายตำแหน่งให้อยู่ตรงกลาง */
+  z-index: 1; /* Ensure the shadow is behind the image */
 }

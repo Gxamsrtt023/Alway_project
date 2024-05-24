@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Q1() {
-    return (
+function Q1 () {
+    return(
         <>
-
+            <dev>
+                
+            </dev>
         </>
     )
 }
-export default Q1;
+
+export default Q1

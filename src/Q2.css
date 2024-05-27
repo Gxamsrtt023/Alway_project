@@ -109,4 +109,10 @@ body {
     top: 130px;
     right: -80px;
   }
-  
+  .i2_mage{
+    width: 250px;
+    position:absolute;
+    top: 10px;
+    left: -130px;
+    transform: rotate(-30deg);
+  }

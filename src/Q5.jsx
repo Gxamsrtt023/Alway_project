@@ -25,6 +25,9 @@ function Q5() {
             <button className="Button5_Ans2">
                 ไม่ถึงขนาดนั้น
             </button>
+            <>
+            <img src="/IMG5.png" alt="Decorative" className="i5_mage" />
+            </>
         </div>
     );
 }

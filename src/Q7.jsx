@@ -32,7 +32,9 @@ function Q7() {
             <>
             <img src="/IMG.png" alt="Decorative" className="i_mage" />
             </>
-            
+            <>
+            <img src="/IMG_2.png" alt="Decorative" className="i_2mage" />
+            </>
         </div>
     );
 }

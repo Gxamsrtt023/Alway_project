@@ -7,7 +7,7 @@ function Q3() {
             <div className="_3rectangle1"></div>
             <div className="_3rectangle2"></div>
             <div className="_3Ask">
-                Question 1/7
+                Question 3/7
             </div>
             <div className="_3Asks">
                 คุณมักจะมีปัญหาในการเลือกซื้อกางเกงเพราะมันมักจะรู้สึกว่าหลวมบริเวณต้นขาและสะโพกใช่หรือไม่
@@ -25,6 +25,9 @@ function Q3() {
             <button className="Button3_Ans2">
                 ไม่ถึงขนาดนั้น
             </button>
+            <>
+            <img src="/IMG3.png" alt="Decorative" className="i3_mage" />
+            </>
         </div>
     );
 }

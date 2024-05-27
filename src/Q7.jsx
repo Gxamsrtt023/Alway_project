@@ -4,6 +4,7 @@ import { FaFemale, FaMale } from 'react-icons/fa';
 
 function Q7() {
     return (
+    
         <div className="_7container">
             <div className="_7rectangle1"></div>
             <div className="_7rectangle2"></div>
@@ -28,6 +29,10 @@ function Q7() {
                 เสื้อผ้าบุรุษ
             <div className="iconmale"><FaMale /></div>
             </button>
+            <>
+            <img src="/IMG.png" alt="Decorative" className="i_mage" />
+            </>
+            
         </div>
     );
 }

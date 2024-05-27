@@ -127,3 +127,10 @@ body {
     right: -80px;
   }
   
+  .i_mage{
+    width: 250px;
+    position:absolute;
+    top: 10px;
+    left: -130px;
+    transform: rotate(-30deg);
+  }

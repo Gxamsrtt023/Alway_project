@@ -7,7 +7,7 @@ function Q4() {
             <div className="_4rectangle1"></div>
             <div className="_4rectangle2"></div>
             <div className="_4Ask">
-                Question 1/7
+                Question 4/7
             </div>
             <div className="_4Asks">
                 เวลาน้ำหนักขึ้นคุณมักจะรู้สึกว่าบริเวณของสะโพกและต้นขาเพิ่มขึ้นมากกว่าส่วนอื่นๆของร่างกายเสมอ
@@ -25,6 +25,9 @@ function Q4() {
             <button className="Button4_Ans2">
                 ไม่ถึงขนาดนั้น
             </button>
+            <>
+            <img src="/IMG4.png" alt="Decorative" className="i4_mage" />
+            </>
         </div>
     );
 }

@@ -59,25 +59,25 @@ body {
 
 .Button1_Ans1 {
     width: 300px;
-    border-radius: 80px;
-    background-color: #C7E1AD;
-    color: rgb(0, 0, 0);
-    font: 20px sans-serif;
-    margin: 80px 30px;
-    position: relative;
-    display: block;
-    margin: -40px 140px;
+  border-radius: 80px;
+  background-color: #CEC3DB;
+  color: rgb(0, 0, 0);
+  font: 20px sans-serif;
+  margin: 80px 30px;
+  position: relative;
+  display: block;
+  margin: -10px 140px;
 }
 
 .Button1_Ans2 {
     width: 300px;
-    font: 20px sans-serif;
-    border-radius: 80px;
-    background-color: #E3A2A2;
-    color: rgb(0, 0, 0);
-    position: relative;
-    display: block;
-    margin: 110px 140px;
+  font: 20px sans-serif;
+  border-radius: 80px;
+  background-color: #DDD4A7;
+  color: rgb(0, 0, 0);
+  position: relative;
+  display: block;
+  margin: 110px 140px;
 }
 
 .Number1 {
@@ -91,7 +91,7 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
-    top: 45px;
+    top: 75px;
     right: -80px;
 }
 
@@ -106,7 +106,7 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
-    top: 130px;
+    top: 190px;
     right: -80px;
 }
 .i1_mage{

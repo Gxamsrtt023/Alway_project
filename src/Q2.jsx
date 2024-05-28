@@ -28,6 +28,9 @@ function Q2() {
             <>
             <img src="/IMG2.png" alt="Decorative" className="i2_mage" />
             </>
+            <>
+            <img src="/IMG2_2.png" alt="Decorative" className="i2_2mage" />
+            </>
         </div>
     );
 }

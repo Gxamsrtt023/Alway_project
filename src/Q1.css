@@ -60,7 +60,7 @@ body {
 .Button1_Ans1 {
     width: 300px;
   border-radius: 80px;
-  background-color: #CEC3DB;
+  background-color: #C1CCBF;
   color: rgb(0, 0, 0);
   font: 20px sans-serif;
   margin: 80px 30px;
@@ -73,7 +73,7 @@ body {
     width: 300px;
   font: 20px sans-serif;
   border-radius: 80px;
-  background-color: #DDD4A7;
+  background-color: #E3A2A2;
   color: rgb(0, 0, 0);
   position: relative;
   display: block;

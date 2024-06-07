@@ -69,8 +69,8 @@ body {
   margin: -10px 140px;
 }
 
-.Button1_Ans2 {
-    width: 300px;
+.Button1_Ans3 {
+  width: 300px;
   font: 20px sans-serif;
   border-radius: 80px;
   background-color: #E3A2A2;
@@ -79,6 +79,26 @@ body {
   display: block;
   margin: 110px 140px;
 }
+.Button1_Ans2 {
+    width: 300px;
+    font: 20px sans-serif;
+    border-radius: 80px;
+    background-color: #E3A2A2;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: block;
+    margin: 110px 140px;
+  }
+  .Button1_Ans4 {
+    width: 300px;
+    font: 20px sans-serif;
+    border-radius: 80px;
+    background-color: #E3A2A2;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: block;
+    margin: 110px 140px;
+  }
 
 .Number1 {
     background-color: #BBDEFB;
@@ -95,6 +115,20 @@ body {
     right: -80px;
 }
 
+.Number3 {
+    background-color: #BBDEFB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    top: 190px;
+    right: -80px;
+}
 .Number2 {
     background-color: #BBDEFB;
     position: relative;
@@ -109,6 +143,20 @@ body {
     top: 190px;
     right: -80px;
 }
+.Number4 {
+    background-color: #BBDEFB;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    top: 190px;
+    right: -900px;
+}
 .i1_mage{
     width: 250px;
     position:absolute;
@@ -117,9 +165,4 @@ body {
     transform: rotate(-30deg);
   }
 
-  .i1_2mage {
-    width: 570px;
-    position:absolute;
-    top: 210px;
-    right: 50px;
-  }
+  

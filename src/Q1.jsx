@@ -10,26 +10,35 @@ function Q1() {
                 Question 1/7
             </div>
             <div className="_1Asks">
-                เสื้อผ้าในตู้ของคุณมักจะมีขนาดที่เล็กกว่ากางเกง (ตัวอย่างเช่น S และ M) ใช่หรือไม่
+                คุณคิดว่ารูปร่างของคุณจัดอยู่ในกลุ่มไหน?? 
             </div>
             <div className="line"></div>
             <div className="Number1">
                 1
             </div>
+            <div className="Number3">
+                3
+            </div>
             <div className="Number2">
                 2
             </div>
+            <div className="Number4">
+                4
+            </div>
             <button className="Button1_Ans1">
-                ฉันคิดว่าเป็นเช่นนั้น
+               
+            </button>
+            <button className="Button1_Ans3">
+               
             </button>
             <button className="Button1_Ans2">
-                ไม่ถึงขนาดนั้น
+               
+            </button>
+            <button className="Button1_Ans4">
+                
             </button>
             <>
             <img src="/IMG1.png" alt="Decorative" className="i1_mage" />
-            </>
-            <>
-            <img src="/IMG1_2.png" alt="Decorative" className="i1_2mage" />
             </>
         </div>
     );

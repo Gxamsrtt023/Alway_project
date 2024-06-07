@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Inter';
-    src: url('path/to/Inter-Regular.ttf') format('truetype');
-    /* สร้างรูปแบบในการเรียกใช้ฟ้อนต์ตามต้องการ */
-    font-weight: normal;
-    font-style: normal;
-  }
-  

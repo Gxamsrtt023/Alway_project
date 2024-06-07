@@ -3,7 +3,7 @@ import './Q1.css';
 
 function Q1() {
     return (
-        <div className="container">
+        <div className="container2">
             <div className="rectangle1"></div>
             <div className="rectangle2"></div>
             <div className="_1Ask">

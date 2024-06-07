@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Signup from './signup'
 import Start from './start'
@@ -9,7 +6,6 @@ import Q1 from './Q1'
 import { Route, Routes,BrowserRouter } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,7 +19,7 @@ function App() {
     </Routes>
     </BrowserRouter>
     </>
-
+  
   )
 }
 

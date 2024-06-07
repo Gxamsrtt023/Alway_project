@@ -73,19 +73,26 @@ label {
 input[type="text"]{
   width: calc(100% - 16px);
   padding: 10px;
-  margin: 20px 0;
   border-radius: 50px;
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
 
-input[type="password"] {
+.inputuserlog{
   width: calc(100% - 16px);
   padding: 10px;
-  margin: 2px 0;
   border-radius: 50px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  margin-top: 20px;
+}
+.inputpasslog{
+  width: calc(100% - 16px);
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .iconusername {

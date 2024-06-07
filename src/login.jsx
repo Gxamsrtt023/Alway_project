@@ -2,8 +2,11 @@ import React from 'react';
 import './login.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
+
 
 function Login() {
+  const navigate = useNavigate()
   return (
     <>
       <div className="header-rectangle">
@@ -15,7 +18,7 @@ function Login() {
           <div className="login_header">
             <h1 className='login_uptext'>
               Login
-              <button className='signup_button'>
+              <button onClick={()=>navigate("/signup")} className='signup_button'>
               Sign Up
             </button>
             </h1>
@@ -24,7 +27,7 @@ function Login() {
           <form>
           <label className='login_name'>
             <FontAwesomeIcon className='iconusername' icon={faUser} />
-              <input
+              <input className='inputuserlog'
                 name='account'
                 type='text'
                 placeholder='Username'
@@ -35,7 +38,7 @@ function Login() {
           </label>
             <label className='login_password'>
             <FontAwesomeIcon className='iconpassword' icon={faLock} />
-              <input
+              <input className='inputpasslog'
                 name='password'
                 type='password'
                 placeholder='Password'
@@ -45,7 +48,7 @@ function Login() {
              
             </label>
 
-            <button className='login_button'>Login</button>
+            <button onClick={()=>navigate("/start")} className='login_button'>Login</button>
           </form>
         </div>
       </div>

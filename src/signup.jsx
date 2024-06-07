@@ -3,19 +3,21 @@ import './signup.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock } from '@fortawesome/free-solid-svg-icons';
 import { MdEmail } from 'react-icons/md';
+import { useNavigate } from 'react-router-dom';
 
 function Signup() {
+    const navigate = useNavigate()
     return (
         
-        <div className="container">
+        <div className="container3">
             <div className="box_signup">
                 <h2 className='signup_text'>
                 Sign Up
                 </h2>
-                <form>
+                <form className='formsignup'>
                     <label className="username"></label>
-                    <FontAwesomeIcon className='icon_username' icon={faUser} />
-                    <input
+                    <FontAwesomeIcon className='icon_username2' icon={faUser} />
+                    <input className='inputuser'
                         id="username"
                         name='username'
                         type='text'
@@ -25,9 +27,8 @@ function Signup() {
                         placeholder="Username"
                     />
 
-                    <label className="signup_email"></label>
-                    <MdEmail className="icon_email" />
-                    <input
+                    <MdEmail className="icon_email2" />
+                    <input className='inputsignup'
                         id="account"
                         name='account'
                         type='text'
@@ -36,9 +37,9 @@ function Signup() {
                         placeholder="Telephone or Email"
                     />
 
-                    <label className="signup_password"></label>
-                    <FontAwesomeIcon className='icon_password' icon={faLock} />
-                    <input 
+                    
+                    <FontAwesomeIcon className='icon_password2' icon={faLock} />
+                    <input className='input_password'
                         id="password"
                         name='password'
                         type='password'
@@ -47,8 +48,8 @@ function Signup() {
                         placeholder="Password"
                     />
 
-                    <label className="confirm_password"></label>
-                    <input
+                   
+                    <input className='inputconpass'
                         id="confirm_password"
                         name='confirm_password'
                         type='password'
@@ -57,7 +58,7 @@ function Signup() {
                         placeholder="Confirm password"
                     />
 
-                    <button className="signup_button">Sign up</button>
+                    <button onClick={()=>navigate("/")} className="signup_button2">Sign up</button>
                 </form>
                 <div className="signup_rectangle"></div>
             </div>

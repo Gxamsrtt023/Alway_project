@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
   }
 
-  .container {
+  .container3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +42,15 @@ body {
     margin: 0;
     box-sizing: border-box;
   }
+.inputuser{
+  width: calc(100% - 16px);
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 
-  form {
+}
+  .formsignup {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,66 +62,65 @@ body {
     margin-bottom: 10px;
   }
   
-  input[type="text"]{
+  .inputsignup[type="text"]{
     width: calc(100% - 16px);
     padding: 10px;
-    margin: 20px 0;
+    margin-top: 10px;
     border-radius: 50px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-top: 5px;
   }
 
   .signup_email{
     width: calc(100% - 16px);
     padding: 10px;
     border-radius: 50px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    margin: -20px;
-  }
-
-  input[type="password"] {
-    width: calc(100% - 16px);
-    padding: 10px;
-    margin-top: -25px;
-    border-radius: 50px;
+    margin-top: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
    
   }
 
-  .confirm_password{
+  .input_password[type="password"] {
     width: calc(100% - 16px);
     padding: 10px;
-    margin-top: 0px;
     border-radius: 50px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
     box-sizing: border-box;
    
   }
 
-  .icon_username {
+  .inputconpass{
+    width: calc(100% - 16px);
+    padding: 10px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+
+  .icon_username2 {
     position: absolute;
     left: 375px; /* Adjust as needed */
     top: 95px; /* Center vertically */
      /* Center vertically */
   }
   
-  .icon_password {
+  .icon_password2 {
     position: absolute;
     left: 375px; /* Adjust as needed */
     top: 185px; /* Center vertically */
      /* Center vertically */
   }
 
-  .icon_email {
+  .icon_email2 {
     position: absolute;
     left: 375px; /* Adjust as needed */
     top: 140px; /* Center vertically */
      /* Center vertically */
   }
   
-  .signup_button {
+  .signup_button2 {
     width: 100%;
     background-color: #C6BBD2;
     color: #fff;

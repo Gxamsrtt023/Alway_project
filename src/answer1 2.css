@@ -1,0 +1,50 @@
+.container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.body-shape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.clothing-section, .dress-section {
+  padding: 20px;
+}
+
+.clothing-section h2, .dress-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.clothing-item, .dress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clothing-item img, .dress-item img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.clothing-item p, .dress-item p {
+  font-size: 14px;
+  text-align: center;
+  max-width: 200px;
+}
+

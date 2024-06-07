@@ -35,10 +35,15 @@ body {
 }
 
 ._1Ask {
+    width: 150px;
+    background-color: #575785;
+    color: white;
     margin-top: -110px;
     font-size: 20px;
+    left: 450px;
     display: block;
     font-weight: bold;
+    position: relative;
 }
 
 ._1Asks {
@@ -46,7 +51,7 @@ body {
     margin-bottom: 0px;
     position: relative;
     top: 80px;
-    left: -170px;
+    left: -220px;
     font-weight: bold;
 }
 
@@ -58,50 +63,55 @@ body {
 }
 
 .Button1_Ans1 {
-    width: 300px;
+  width: 300px;
   border-radius: 80px;
-  background-color: #C1CCBF;
+  background-color: #DDD4A7;
   color: rgb(0, 0, 0);
   font: 20px sans-serif;
   margin: 80px 30px;
   position: relative;
   display: block;
-  margin: -10px 140px;
+  top: -175px;
+  left: 100px;
 }
 
 .Button1_Ans3 {
   width: 300px;
   font: 20px sans-serif;
   border-radius: 80px;
-  background-color: #E3A2A2;
+  background-color: #DDD4A7;
   color: rgb(0, 0, 0);
   position: relative;
   display: block;
-  margin: 110px 140px;
+  top: -310px;
+  left: 610px;
 }
+  
 .Button1_Ans2 {
     width: 300px;
     font: 20px sans-serif;
     border-radius: 80px;
-    background-color: #E3A2A2;
+    background-color: #DDD4A7;
     color: rgb(0, 0, 0);
     position: relative;
     display: block;
-    margin: 110px 140px;
+    top: -170px;
+    left: 130px;
   }
   .Button1_Ans4 {
     width: 300px;
     font: 20px sans-serif;
     border-radius: 80px;
-    background-color: #E3A2A2;
+    background-color: #DDD4A7;
     color: rgb(0, 0, 0);
     position: relative;
     display: block;
-    margin: 110px 140px;
+    top: -220px;
+    left: 610px;
   }
 
 .Number1 {
-    background-color: #BBDEFB;
+    background-color: #CEC3DB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +126,7 @@ body {
 }
 
 .Number3 {
-    background-color: #BBDEFB;
+    background-color: #CEC3DB;
     position: relative;
     display: flex;
     align-items: center;
@@ -126,11 +136,11 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
-    top: 190px;
-    right: -80px;
+    top: 35px;
+    right: -560px;
 }
 .Number2 {
-    background-color: #BBDEFB;
+    background-color: #CEC3DB;
     position: relative;
     display: flex;
     align-items: center;
@@ -144,7 +154,7 @@ body {
     right: -80px;
 }
 .Number4 {
-    background-color: #BBDEFB;
+    background-color: #CEC3DB;
     position: relative;
     display: flex;
     align-items: center;
@@ -154,8 +164,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     font-weight: bold;
-    top: 190px;
-    right: -900px;
+    top: 150px;
+    right: -560px;
 }
 .i1_mage{
     width: 250px;

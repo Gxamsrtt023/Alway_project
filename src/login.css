@@ -51,7 +51,6 @@ body {
   background-color: #333366;
   color: #fff;
   border-radius: 30px;
-  width: calc(100px - 40px); 
   font-size: 10px;
   position: relative; /* Add relative positioning */
   left: 80px; /* Adjust button's horizontal position */

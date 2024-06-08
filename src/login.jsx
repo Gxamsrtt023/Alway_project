@@ -22,7 +22,6 @@ function Login() {
               Sign Up
             </button>
             </h1>
-            
           </div>
           <form>
           <label className='login_name'>

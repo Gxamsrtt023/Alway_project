@@ -3,18 +3,23 @@ import './answer1.css';
 
 const Answer1 = () => {
     return (
-        <div className="container">
+        <div className="container_ans1">
+            <div className="container11_ans1">
+            <div className="rectangle1_ans1"></div>
+            <div className="rectangle2_ans1"></div>
             <div className="header">
                 <div className="image-wrapper">
                     <img src="/นาฬิกาทราย.png" alt="Body shape illustration" className="image"/>
                 </div>
-                <div className="description">
+                <div className="description1_ans1">
                     <h1>รูปร่างของคุณคือ</h1>
                     <h2>รูปร่างนาฬิกาทราย</h2>
                     <p>คุณมีเอวคอดชัดเจน มีส่วนเว้าส่วนโค้งที่สวยงาม รูปร่างของคุณมีความสมดุลรับกันดี
                         เคล็ดลับการแต่งตัวของเราจะช่วยให้คุณเน้นจุดสวยละมุนไป</p>
                 </div>
             </div>
+            </div>
+            <div className="container2_ans1">
             <div className="section">
                 <h2>เสื้อเชิ้ตทรงมาตรฐาน</h2>
                 <div className="image-row">
@@ -25,13 +30,14 @@ const Answer1 = () => {
                     ไม่เพียงความสบายจะทำให้มั่นใจน้อยของร่างกายคุณคับขันจึงสามารถรักษาลุคตามธรรมชาติได้</p>
             </div>
             <div className="section">
-                <h2>เดรสสัดรูป</h2>
+                <h2>เดรสรัดรูป</h2>
                 <div className="image-row">
                     <img src="/เดรสรัดรูป.jpg" alt="Dress 1" className="image"/>
                     <img src="/เดรสรัดรูป2.png" alt="Dress 2" className="image"/>
                 </div>
-                <p>เดรสสัดรปที่เน้นรูปร่างตามธรรมชาติของคุณนั้นช่วยเสริมส่วนโค้งส่วนเว้าของคุณ
+                <p>เดรสรัดดรปที่เน้นรูปร่างตามธรรมชาติของคุณนั้นช่วยเสริมส่วนโค้งส่วนเว้าของคุณ
                     และทำให้รูปร่างของคุณสวยยาวขึ้น โดยเน้นรูปร่างนาฬิกาทรายของคุณ</p>
+            </div>
             </div>
         </div>
     );

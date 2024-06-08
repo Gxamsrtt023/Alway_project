@@ -1,10 +1,12 @@
 import React from 'react';
 import './answer1.css';
+import { useNavigate } from 'react-router-dom';
 
 const Answer1 = () => {
+    const navigate = useNavigate()
     return (
         <div className="container_ans1">
-             <img src="/บ้านans1.png" alt="Body shape illustration" className="homeans1"/>
+             <img src="/บ้านans1.png" alt="Body shape illustration" onClick={()=>navigate("/")} className="homeans1"/>
             <div className="container11_ans1">
             <div className="rectangle1_ans1"></div>
             <div className="rectangle2_ans1"></div>

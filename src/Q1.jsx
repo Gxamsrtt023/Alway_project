@@ -1,7 +1,9 @@
 import React from "react";
 import './Q1.css';
+import { useNavigate } from 'react-router-dom';
 
 function Q1() {
+    const navigate = useNavigate()
     return (
         <div className="container2">
             <div className="rectangle1"></div>
@@ -25,7 +27,7 @@ function Q1() {
             <div className="Number4">
                 4
             </div>
-            <button className="Button1_Ans1">
+            <button onClick={()=>navigate("/answer1")} className="Button1_Ans1">
             ไหล่และสะโพกมีขนาดเท่ากันหรือใกล้เคียงกัน 
             เอวแคบและเห็นชัดเจน
             </button>

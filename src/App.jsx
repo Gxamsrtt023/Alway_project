@@ -4,6 +4,7 @@ import Start from './start'
 import Login from './login'
 import Q1 from './Q1'
 import { Route, Routes,BrowserRouter } from 'react-router-dom'
+import Answer1 from './answer1'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/start" element={<Start />}/>
         <Route path="/Q1" element={<Q1 />}/>
-        
+        <Route path="/answer1" element={<Answer1/>}/>
     </Routes>
     </BrowserRouter>
     </>

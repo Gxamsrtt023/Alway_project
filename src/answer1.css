@@ -25,7 +25,7 @@ body{
   background-color: #F2D2CF;
   padding: 20px;
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 .container2_ans1 {
   border-radius: 40px;
@@ -34,7 +34,7 @@ body{
   height: 1100px;
   background-color: #D1C7D1;
   position: relative;
-  
+  top: -40px;
 
 }
 .rectangle1_ans1 {
@@ -42,7 +42,7 @@ body{
   width: 740px;
   height: 70px;
   position: absolute;
-  top: -140px;
+  top: -120px;
   right: 450px;
 
 }
@@ -52,7 +52,7 @@ body{
   width: 740px;
   height: 70px;
   position: relative;
-  top: -160px;
+  top: -140px;
   left: 420px;
 }
 
@@ -136,7 +136,7 @@ body{
   margin-top: 20px; /* ระยะห่างด้านบน */
   margin-bottom: 20px;
   left: -100px; 
-  top: 10px;
+  top: -40px;
   position: relative;
 
 }

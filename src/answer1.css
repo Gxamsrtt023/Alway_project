@@ -25,6 +25,7 @@ body{
   background-color: #F2D2CF;
   padding: 20px;
   position: relative;
+  top: -40px;
 }
 .container2_ans1 {
   border-radius: 40px;
@@ -41,7 +42,7 @@ body{
   width: 740px;
   height: 70px;
   position: absolute;
-  top: -180px;
+  top: -140px;
   right: 450px;
 
 }
@@ -51,7 +52,7 @@ body{
   width: 740px;
   height: 70px;
   position: relative;
-  top: -200px;
+  top: -160px;
   left: 420px;
 }
 
@@ -140,12 +141,12 @@ body{
 
 }
 
-.section {
+.section_ANS1 {
   margin-bottom: -50px;
   position: relative;
 }
 
-.section h2 {
+.section_ANS1  h2 {
   border-radius: 60px;
   left: 30px;
   margin-top: 50px;
@@ -161,21 +162,21 @@ body{
   top: 30px;
 }
 
-.image-row {
+.imageANS-row {
   margin-top: 50px;
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
 }
 
-.image-row .image {
+.imageANS-row .imageANS {
   max-width: 300px;
   border-radius: 10px;
   margin-left: 70px;
   margin-top: 10px;
 }
 
-.section p {
+.section_ANS1  p {
   position: relative;
   width: 700px;
   font-size: 16px;

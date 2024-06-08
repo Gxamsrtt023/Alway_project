@@ -24,20 +24,20 @@ const Answer1 = () => {
             </div>
             <div class="line_ans1_1"></div>
             <div className="container2_ans1">
-            <div className="section">
+            <div className="section_ANS1 ">
                 <h2>เสื้อเชิ้ตทรงมาตรฐาน</h2>
-                <div className="image-row">
-                    <img src="/เสื้อเชิ้ต1.png" alt="Standard shirt 1" className="image"/>
-                    <img src="/เสื้อเชิ้ต2.png" alt="Standard shirt 2" className="image"/>
+                <div className="imageANS-row">
+                    <img src="/เสื้อเชิ้ต1.png" alt="Standard shirt 1" className="imageANS"/>
+                    <img src="/เสื้อเชิ้ต2.png" alt="Standard shirt 2" className="imageANS"/>
                 </div>
                 <p>หนึ่งในเครื่องแต่งกายที่ดีที่สุดสำหรับหุ่นนาฬิกาทรายคือเสื้อเชิ้ตพอดีตัวแบบเรียบๆ
                     ไม่เพียงความสบายจะทำให้มั่นใจน้อยของร่างกายคุณคับขันจึงสามารถรักษาลุคตามธรรมชาติได้</p>
             </div>
-            <div className="section">
+            <div className="section_ANS1 ">
                 <h2>เดรสรัดรูป</h2>
-                <div className="image-row">
-                    <img src="/เดรสรัดรูป.jpg" alt="Dress 1" className="image"/>
-                    <img src="/เดรสรัดรูป2.png" alt="Dress 2" className="image"/>
+                <div className="imageANS-row">
+                    <img src="/เดรสรัดรูป.jpg" alt="Dress 1" className="imageANS"/>
+                    <img src="/เดรสรัดรูป2.png" alt="Dress 2" className="imageANS"/>
                 </div>
                 <p>เดรสรัดรูปที่เน้นรูปร่างตามธรรมชาติของคุณนั้นช่วยเสริมส่วนโค้งส่วนเว้าของคุณ
                     และทำให้รูปร่างของคุณสวยยาวขึ้น โดยเน้นรูปร่างนาฬิกาทรายของคุณ</p>

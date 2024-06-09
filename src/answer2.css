@@ -76,7 +76,7 @@ body{
   position: relative;
   left: 550px;
   top: -20px;
-  transform: scaleY(-1);
+  
 }
 
 .description2_ANS2 {
@@ -156,9 +156,9 @@ body{
   background-color: #FFFACD;
   font-size: 16px;
   color: #000000;
-  margin-bottom: 0px;
+  margin: 10px;
   position: relative;
-  top: 30px;
+  top: 40px;
 }
 
 .imageANSWER2-row {
@@ -169,14 +169,15 @@ body{
 }
 
 .imageANSWER2-row .imgANS2 {
-  top: -50px; /* Adjust to center the image vertically */
-  left: -50px; /* Adjust to center the image horizontally */
+  top: -0px; /* Adjust to center the image vertically */
+  left: 120px;/* Adjust to center the image horizontally */
   width: 300px; /* Adjust the width to ensure the image covers the crop area */
   height: auto;
-  height: 400px;
+  height: 380px;
   border-radius: 10px;
-  margin-left: 70px;
   margin-top: 10px;
+  position: relative;
+  margin: 10px;
 }
 
 .section_ANSwer2   p {

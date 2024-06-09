@@ -22,6 +22,7 @@ body{
   font-family: Arial, sans-serif;
   border-radius: 40px;
   max-width: 900px;
+  height: 500px;
   background-color: #F2D2CF;
   padding: 20px;
   position: relative;
@@ -69,12 +70,12 @@ body{
 }
 
 .Icn4 {
-  max-width: 100%;
+  max-width: 35%;
   height: auto;
   border-radius: 10px;
   position: relative;
-  left: 50px;
-  top: -10px;
+  left: 550px;
+  top: -50px;
 }
 
 .descrip-answer4 {
@@ -86,26 +87,26 @@ body{
 .descrip-answer4 h1 {
   font-size: 20px;
   color: #000000;
-  top: -60px;
   position: relative;
+  
   
 }
 
 .descrip-answer4 h2 {
-  width: 150px;
+  width: 180px;
   font-size: 28px;
   color: #000000;
-  top: -50px;
+  top: 10px;
   text-align: left;
   position: relative;
-  left: 110px;
+  left: 100px;
 }
 
 .IM44{
-  width: 160px;
+  width: 300px;
   position: absolute;
   top: -40px;
-  left: 320px;
+  left: -230px;
 }
 
 .lin-4 {
@@ -115,7 +116,6 @@ body{
   margin-top: 20px; /* ระยะห่างด้านบน */
   margin-bottom: 20px;
   left: 90px; 
-  top: -60px;
   position: relative;
 }
 .descrip-answer4 p {
@@ -123,7 +123,6 @@ body{
   font-size: 16px;
   color: #000000;
   line-height: 1.5;
-  top: -60px;
   position: relative;
   left: 90px;
   text-align: left;
@@ -149,7 +148,7 @@ body{
 .sect-ans4  h2 {
   border-radius: 60px;
   left: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 170px;
   height: 30px;
   line-height: 30px;
@@ -157,9 +156,9 @@ body{
   background-color: #FFFACD;
   font-size: 16px;
   color: #000000;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   position: relative;
-  top: 30px;
+  top: 40px;
 }
 
 .img-answer4rw {
@@ -170,10 +169,14 @@ body{
 }
 
 .img-answer4rw .ig-ans {
-  max-width: 300px;
+  top: -0px; /* Adjust to center the image vertically */
+  left: 120px;/* Adjust to center the image horizontally */
+  width: 300px; /* Adjust the width to ensure the image covers the crop area */
+  height: 380px;
   border-radius: 10px;
-  margin-left: 70px;
   margin-top: 10px;
+  position: relative;
+  margin: 10px;
 }
 
 .sect-ans4   p {

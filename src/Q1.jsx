@@ -38,7 +38,7 @@ function Q1() {
             <button className="Button1_Ans2">
             อกกว้างหรือไหล่กว้างกว่าสะโพก และมีเอวแคบกว่า ขามักจะเรียวยาว
             </button>
-            <button className="Button1_Ans3">
+            <button onClick={()=>navigate("/answer3")} className="Button1_Ans3">
             อก ไหล่ สะโพก และเอวมีขนาดเท่ากันทุกส่วน เอวไม่ชัดเจนหรือมีเอวตรง
             </button>
             <>

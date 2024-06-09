@@ -35,7 +35,7 @@ function Q1() {
             สะโพกกว้างช่วงบนของร่างกายเล็กกว่า
             เอวชัดเจนมีช่วงต้นขาและสะโพกที่เด่นชัด
             </button>
-            <button className="Button1_Ans2">
+            <button onClick={()=>navigate("/answer2")} className="Button1_Ans2">
             อกกว้างหรือไหล่กว้างกว่าสะโพก และมีเอวแคบกว่า ขามักจะเรียวยาว
             </button>
             <button onClick={()=>navigate("/answer3")} className="Button1_Ans3">

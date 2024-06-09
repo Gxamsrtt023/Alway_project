@@ -7,6 +7,7 @@ import Answer3 from './answer3'
 import { Route, Routes,BrowserRouter } from 'react-router-dom'
 import Answer1 from './answer1'             
 import Answer4 from './answer4'
+import Answer2 from './answer2'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <Route path="/answer1" element={<Answer1/>}/>
         <Route path="/answer3" element={<Answer3 />}/>
         <Route path="/answer4" element={<Answer4 />}/>
-        
+        <Route path="/answer2" element={<Answer2/>}/>
     </Routes>
     </BrowserRouter>
     </>

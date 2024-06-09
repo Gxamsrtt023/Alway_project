@@ -31,7 +31,7 @@ function Q1() {
             ไหล่และสะโพกมีขนาดเท่ากันหรือใกล้เคียงกัน 
             เอวแคบและเห็นชัดเจน
             </button>
-            <button className="Button1_Ans4">
+            <button onClick={()=>navigate("/answer4")}  className="Button1_Ans4">
             สะโพกกว้างช่วงบนของร่างกายเล็กกว่า
             เอวชัดเจนมีช่วงต้นขาและสะโพกที่เด่นชัด
             </button>

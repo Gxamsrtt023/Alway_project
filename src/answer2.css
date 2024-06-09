@@ -22,6 +22,7 @@ body{
   font-family: Arial, sans-serif;
   border-radius: 40px;
   max-width: 900px;
+  height: 500px;
   background-color: #F2D2CF;
   padding: 20px;
   position: relative;
@@ -56,13 +57,13 @@ body{
   left: 420px;
 }
 
-.headerANS {
+.headerANS2 {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.image-wrapper-ANSWER {
+.image-wrapper-ANSWER2 {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -74,7 +75,7 @@ body{
   border-radius: 10px;
   position: relative;
   left: 550px;
-  top: -80px;
+  top: -20px;
   transform: scaleY(-1);
 }
 
@@ -87,7 +88,6 @@ body{
 .description2_ANS2 h1 {
   font-size: 20px;
   color: #000000;
-  top: -60px;
   position: relative;
   
 }
@@ -96,17 +96,17 @@ body{
   width: 180px;
   font-size: 28px;
   color: #000000;
-  top: -50px;
+  top: 10px;
   text-align: left;
   position: relative;
   left: 110px;
 }
 
 .IMGAns2{
-  width: 260px;
+  width: 300px;
   position: absolute;
-  top: -55px;
-  left: -210px;
+  top: -40px;
+  left: -230px;
 }
 
 .line_ANS2{
@@ -116,7 +116,6 @@ body{
   margin-top: 20px; /* ระยะห่างด้านบน */
   margin-bottom: 20px;
   left: 90px; 
-  top: -60px;
   position: relative;
 }
 .description2_ANS2 p {
@@ -124,7 +123,6 @@ body{
   font-size: 16px;
   color: #000000;
   line-height: 1.5;
-  top: -60px;
   position: relative;
   left: 90px;
   text-align: left;
@@ -163,15 +161,19 @@ body{
   top: 30px;
 }
 
-.imageANSWER-row {
+.imageANSWER2-row {
   margin-top: 50px;
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
 }
 
-.imageANSWER-row .imgANS {
-  max-width: 300px;
+.imageANSWER2-row .imgANS2 {
+  top: -50px; /* Adjust to center the image vertically */
+  left: -50px; /* Adjust to center the image horizontally */
+  width: 300px; /* Adjust the width to ensure the image covers the crop area */
+  height: auto;
+  height: 400px;
   border-radius: 10px;
   margin-left: 70px;
   margin-top: 10px;

@@ -8,8 +8,8 @@ const Answer2 = () => {
             <div className="container22_ANS2">
             <div className="rectangle1_answer2"></div>
             <div className="rectangle2_answer2"></div>
-            <div className="headerANS">
-                <div className="image-wrapper-ANSWER">
+            <div className="headerANS2">
+                <div className="image-wrapper-ANSWER2">
                     <img src="/สามเหลี่ยมคว่ำ.png" alt="Body shape illustration" className="img22"/>
                 </div>
                 <div className="description2_ANS2">
@@ -26,18 +26,18 @@ const Answer2 = () => {
             <div className="container2_ANS2">
             <div className="section_ANSwer2 ">
                 <h2>เสื้อปาดไหล่</h2>
-                <div className="imageANSWER-row">
-                    <img src="/เสื้อปาดไหล่1.jpg" alt="Standard shirt 1" className="imgANS"/>
-                    <img src="/เสื้อปาดไหล่2.jpg" alt="Standard shirt 2" className="imgANS"/>
+                <div className="imageANSWER2-row">
+                    <img src="/เสื้อปาดไหล่1.jpg" alt="Standard shirt 1" className="imgANS2"/>
+                    <img src="/เสื้อปาดไหล่2.jpg" alt="Standard shirt 2" className="imgANS2"/>
                 </div>
                 <p>เสื้อปาดไหล่จะโชว์ไหล่ของคุณและดึงดูดความสนใจไปที่ใบหน้าที่สวยงามของคุณ 
                     นอกจากนี้ยังช่วยยืดลำตัวของคุณให้ยาวขึ้น ทำให้เกิดรูปทรงที่สง่างาม</p>
             </div>
             <div className="section_ANSwer2 ">
                 <h2>เดรสเกาะอก</h2>
-                <div className="imageANSWER-row">
-                    <img src="/เดรสเกาะอก.jpg" alt="Dress 1" className="imgANS"/>
-                    <img src="/เดรสเกาะอก2.jpg" alt="Dress 2" className="imgANS"/>
+                <div className="imageANSWER2-row">
+                    <img src="/เดรสเกาะอก.jpg" alt="Dress 1" className="imgANS2"/>
+                    <img src="/เดรสเกาะอก2.jpg" alt="Dress 2" className="imgANS2"/>
                 </div>
                 <p>เดรสเกาะอกสามารถอกโชว์ไหล่สวยได้ในขณะที่เดรสแบบมีปีก
                     จะช่วยเพิ่มความคมชัดให้กับช่วงเอวและเพิ่มขนาดให้กับสะโพกของคุณ</p>

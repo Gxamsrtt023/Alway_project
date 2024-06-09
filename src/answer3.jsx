@@ -10,7 +10,7 @@ const Answer3 = () => {
             <div className="rectanglely2_answer3"></div>
             <div className="headerlyANSwer">
                 <div className="wrapper-answer3">
-                    <img src="/สี่เหลี่ยมผืนผ้า.png" alt="Body shape illustration" className="Icon3"/>
+                <img src="/สี่เหลี่ยมผืนผ้า.png" alt="Body shape illustration" className="Icon3"/>
                 </div>
                 <div className="descriptionly_ANSwer3">
                     <h1>รูปร่างของคุณคือ</h1>
@@ -27,8 +27,8 @@ const Answer3 = () => {
             <div className="sectionly_ANS3">
                 <h2>ชุดเดรสแขนตุ๊กตา</h2>
                 <div className="imgans-rw3">
-                    <img src="/ชุดเดรสแขนตุ๊กตา1.jpg" alt="Standard shirt 1" className="imanswer"/>
-                    <img src="/ชุดเดรสแขนตุ๊กตา2.jpg" alt="Standard shirt 2" className="imanswer"/>
+                    <img src="/ชุดเดรสแขนตุ๊กตา1.jpg" alt="Standard shirt 1" className="imanswer3"/>
+                    <img src="/ชุดเดรสแขนตุ๊กตา2.jpg" alt="Standard shirt 2" className="imanswer3"/>
                 </div>
                 <p>ชุดเดรสแขนตุ๊กตาให้ความสนใจกับไหล่ของคุณในขณะที่เดรสช่วยเพิ่มมิติให้กับเอว
                     และเพิ่มขนาดให้กับสะโพกของคุณช่วยสร้างภาพลวงตาของรูปทรงนาฬิกา</p>
@@ -36,8 +36,8 @@ const Answer3 = () => {
             <div className="sectionly_ANS3">
                 <h2>กางเกงยีนส์ขาม้า</h2>
                 <div className="imgans-rw3">
-                    <img src="/กางเกงยีนส์ขาม้า.png" alt="Dress 1" className="imanswer"/>
-                    <img src="/กางเกงยีนส์ขาม้า2.jpg" alt="Dress 2" className="imanswer"/>
+                    <img src="/กางเกงยีนส์ขาม้า.png" alt="Dress 1" className="imanswer3"/>
+                    <img src="/กางเกงยีนส์ขาม้า2.jpg" alt="Dress 2" className="imanswer3"/>
                 </div>
                 <p>กางเกงยีนส์ขาม้าเหมาะกับรูปร่างของคุณที่สุด เนื่องจากกางเกงยีนส์ขาม้าที่บานเล็กน้อยบริเวณด้านล่าง
                     สามารถสร้างขนาดและเพิ่มเส้นโค้งให้กับรูปร่างสี่เหลี่ยมจัตุรัสของคุณ</p>

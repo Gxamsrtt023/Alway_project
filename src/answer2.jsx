@@ -10,7 +10,7 @@ const Answer2 = () => {
             <div className="rectangle2_answer2"></div>
             <div className="headerANS">
                 <div className="image-wrapper-ANSWER">
-                    <img src="/สามเหลี่ยมคว่ำ.png" alt="Body shape illustration" className="img"/>
+                    <img src="/สามเหลี่ยมคว่ำ.png" alt="Body shape illustration" className="img22"/>
                 </div>
                 <div className="description2_ANS2">
                     <h1>รูปร่างของคุณคือ</h1>

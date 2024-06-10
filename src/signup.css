@@ -147,3 +147,25 @@ body {
     height: 50px;
   }
   
+  .error_container {
+    position: absolute;
+    font-size: 10px;
+    top: 250px;
+    left: 250px;
+    display: flex;
+    align-items: center;  
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+}
+
+.error_icon {
+    margin-right: 10px;
+}
+
+.error_message {
+    margin: 0;
+    font-weight: bold;
+}
